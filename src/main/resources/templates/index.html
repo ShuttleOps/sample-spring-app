@@ -22,8 +22,14 @@
 
 <body>
 	<div>
-		<h1 class="title">This is <span>sample-spring-app</span> built and deployed by <a href="https://shuttleops.io" target="_blank"><img th:src="@{/images/sho-logo.svg}" /></a></h1>
-		<img th:src="@{/images/sho-outline.svg}" />
+		<h1 class="title">This is <span>sample-spring-app</span> built and deployed by</h1>
+		<div>
+			<a class="link" href="https://shuttleops.io" target="_blank"><img th:src="@{/images/sho-logo.svg}" /></a>
+		</div>
+		
+		<div class="big-logo">
+			<img th:src="@{/images/sho-outline.svg}" />
+		</div>
 	</div>
 </body>
 

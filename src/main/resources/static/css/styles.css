@@ -26,15 +26,10 @@ body h1.title span {
 	color: #59d1fc;
 }
 
-body h1.title a,
-body h1.title a:hover {
-	color: white;
+body a.link img {
+	width: 300px;
 }
 
-body h1.title a {
-	text-decoration: none;
-}
-
-body h1.title a:hover {
-	text-decoration: underline;
+body .big-logo {
+	margin-top: 50px;
 }
